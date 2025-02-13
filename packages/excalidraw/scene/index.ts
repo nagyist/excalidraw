@@ -1,4 +1,3 @@
-export { isOverScrollBars } from "./scrollbars";
 export {
   isSomeElementSelected,
   getElementsWithinSelection,
@@ -13,7 +12,9 @@ export {
   hasStrokeStyle,
   canHaveArrowheads,
   canChangeRoundness,
-  getElementAtPosition,
-  getElementsAtPosition,
 } from "./comparisons";
-export { getNormalizedZoom } from "./zoom";
+export {
+  getNormalizedZoom,
+  getNormalizedGridSize,
+  getNormalizedGridStep,
+} from "./normalize";
